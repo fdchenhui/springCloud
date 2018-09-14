@@ -5,13 +5,10 @@ spring:
     config:
       server:
         git:
-          uri:
-            https://git.oschina.net/geek_qi/AG-Config.git
+          uri: https://github.com/fdchenhui/fdchenhui.git
 eureka:
   client:
     service-url:
-      defaultZone:
-        http://localhost:8761/eureka
+      defaultZone:  http://localhost:8761/eureka
 server:
-  port:
-    8750
+  port: 8750
