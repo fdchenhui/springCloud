@@ -7,12 +7,10 @@ zuul:
   prefix: /api #拦截所有以api开头的请求都经过zuul路由
   routes:  #TODO 路由表定义
      user-center:
-        path:
-          /uc/**
-        serviceId:
-          user-center
+        path: /uc/**
+        serviceId:  user-center
 
   eureka:
     client:
       service-url:
-        defaultZone:http://localhost:8761/eureka
+        defaultZone: http://localhost:8761/eureka

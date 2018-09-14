@@ -9,6 +9,7 @@
         <module>ag-zuul</module>
         <module>ag-uc</module>
         <module>ag-config</module>
+		<module>ag-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
